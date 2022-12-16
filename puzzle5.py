@@ -1,5 +1,5 @@
-def test(str1):
-    return str1[len(str1)-2] in str1[len(str1)-1] and str1[len(str1)-2]!=str[len(str1)-1]
+def test(str):
+    return str[len(str)-2] in str[len(st)-1] and str[len(str)-2]!=str[len(str)-1]
 str=["a","abb","sfs","00","de","sfde"]
 print("original list")
 print(str)
